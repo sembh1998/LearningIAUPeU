@@ -1,0 +1,8 @@
+library(tidyverse) 
+library(factoextra) 
+library(cowplot) 
+library(ggpubr) 
+library(cluster) 
+library(fviz_cluster) 
+
+ependencies ‘googledrive’, ‘googlesheets4’, ‘httr’, ‘rvest’ are not available for package ‘tidyverse’
