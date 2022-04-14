@@ -19,7 +19,7 @@ iris = iris.drop('SepalWidthCm', axis=1)
 #iris = iris.drop('Species', axis=1)
 #print(iris.head())
 from sklearn.decomposition import PCA
-# USER THE ELKAN ALGORITHM
+# USE THE ELKAN ALGORITHM
 # The “elkan” variation is more efficient on data with well-defined clusters, by using the triangle inequality
 from sklearn.cluster import KMeans
 
