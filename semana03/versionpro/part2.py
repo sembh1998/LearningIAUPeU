@@ -14,7 +14,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y.astype(str), test_size=0.25, random_state=0)
 
 # Fit the model on training data, predict on test data
-clf = KNeighborsClassifier(15)
+clf = KNeighborsClassifier(3)
 clf.fit(X_train, y_train)
 y_score = clf.predict_proba(X_test)[:, 1]
 
